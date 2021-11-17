@@ -1,3 +1,5 @@
+ ![Logo](zeroslope.png)
+
 ## ZeroSlope Platform
 
 About 8 years ago, I started working on a .net scaffold specifically around my Dependency Injection Composition Root pattern. I wanted to create super lean and performant scaffold I could drop into a new project and get running quickly. It evolved into a way to introduce other engineers to Composition Root. What I discovered during this phase, was how approachable the pattern was to engineers of most any skill level. I decided to pivot my scaffold to focus on two main principals; Lean Architecture & Developer Adoption.
