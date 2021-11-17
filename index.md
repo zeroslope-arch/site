@@ -8,11 +8,11 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 
 ### The Tenants of ZeroSlope
 
-1) Developer Focused: Developer quality of life is the largest focus of the pattern. When at a crossroads on a design pattern, whichever leans closer to developer maintainability should win.
-2) Developer Adoption: The pattern and processes should lend to developers of all skill levels to work within it. The more comfortable or skillful the developer, the deeper into the stack they can work.
-3) Lean and Clean: The pattern should have minimal abstraction that does not remove the need to repeat configuration, or repeat code usage. ie: The pipeline should always be abstracted away from everyday developer use. No code should live within controllers other than service method calls. When possible, use nuget/npm packages to remove redundant framework setup.
-4) Simple Composition: The framework is made up of Pipeline, Controllers, Services, and (not always) Composition Root. As part of #3, this framework should be lean and be familiar to developers as they onboard into the framework.
-5) Language Agnostic: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
+* Developer Focused: Developer quality of life is the largest focus of the pattern. When at a crossroads on a design pattern, whichever leans closer to developer maintainability should win.
+* Developer Adoption: The pattern and processes should lend to developers of all skill levels to work within it. The more comfortable or skillful the developer, the deeper into the stack they can work.
+* Lean and Clean: The pattern should have minimal abstraction that does not remove the need to repeat configuration, or repeat code usage. ie: The pipeline should always be abstracted away from everyday developer use. No code should live within controllers other than service method calls. When possible, use nuget/npm packages to remove redundant framework setup.
+* Simple Composition: The framework is made up of Pipeline, Controllers, Services, and (not always) Composition Root. As part of #3, this framework should be lean and be familiar to developers as they onboard into the framework.
+* Language Agnostic: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
 
 
 ### Lean Microservice Architecture
