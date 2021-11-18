@@ -6,6 +6,8 @@ Looking for code? [Github Repositories](https://github.com/zeroslope-arch)
 
 About 10 years ago, I started working on a .net scaffold specifically around my [Dependency Injection Composition Root](https://medium.com/@cfryerdev/dependency-injection-composition-root-418a1bb19130) pattern. I wanted to create super lean and performant scaffold I could drop into a new project and get running quickly. It evolved into a way to introduce other engineers to Composition Root. What I discovered during this phase, was how approachable the pattern was to engineers of most any skill level. I decided to pivot my scaffold to focus on two main principals; **Lean Architecture** & **Developer Adoption**.
 
+What does the name mean? In algebra, a zero slope is a straight horizonal line. I strongly believe the a good microservice architecture should mainly scale horizontally with load.
+
 To avoid analysis paralysis and ensure what I was developing would stay true to the idea I had in my head, I came up with a series of Tenants that I can always look back on and make sure I am making the right architectural decisions.
 
 ### The Tenants of ZeroSlope
@@ -15,6 +17,11 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 * **Lean and Clean**: The pattern should have minimal abstraction that does not remove the need to repeat configuration, or repeat code usage. ie: The pipeline should always be abstracted away from everyday developer use. No code should live within controllers other than service method calls. When possible, use nuget/npm packages to remove redundant framework setup.
 * **Simple Composition**: The framework is made up of Pipeline, Controllers, Services, and (not always) Composition Root. As part of #3, this framework should be lean and be familiar to developers as they onboard into the framework.
 * **Language Agnostic**: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
+
+
+### Horizontally scaling
+
+If an engineer was working on the Java variant of ZeroSlope, and needed to work on a .net project with little to no experience in .net, hopefully the platform would provide a jumping-off point to get the engineer comfortable quickly.
 
 
 ### Switching Technologies
