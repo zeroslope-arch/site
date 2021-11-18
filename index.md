@@ -19,6 +19,12 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 * **Language Agnostic**: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
 
 
+## Solution Architecture
+
+ ![Architecture](assets/solution_architecture.png)
+
+## Technical Concepts
+
 ### Horizontally scaling
 
 If an engineer was working on the Java variant of ZeroSlope, and needed to work on a .net project with little to no experience in .net, hopefully the platform would provide a jumping-off point to get the engineer comfortable quickly.
