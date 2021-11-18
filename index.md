@@ -1,4 +1,4 @@
- ![Logo](zeroslope.png)
+ ![Logo](assets/logo.png)
  
 Looking for code? [Github Repositories](https://github.com/zeroslope-arch)
 
@@ -51,3 +51,24 @@ So far, ZeroSlope comes in a few flavors:
 * GoLang using Gin
 * Java 8 Spring Boot
 * Node ExpressJS with Typescript
+
+
+## Cloud Composition Architecture
+
+ZeroSlope works perfectly with the composition layer approach to cloud architecture.  (As shown and described below)
+
+ ### Composition Layer
+
+ZeroSlope provides lean microservices and/or lambda architectures for use in the composition layer which is primarily responsible for holding business logic and orchestrating call(s) to core services.
+
+ ### Core Services Layer
+
+ZeroSlope can also be used in the core services layer where scalability and resiliency is an absolutye must. In the core services layer, we build mostly static, highly performance microservices which provide only functionality and extensibility, but no business rule based logic.
+
+### Diagram
+
+ ![CloudComposition](assets/cloud_composition_arch.png)
+
+### More infromation
+
+For more information, head over to the GitHub organization: [Github Repositories](https://github.com/zeroslope-arch)
