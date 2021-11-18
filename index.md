@@ -42,3 +42,12 @@ Each ZeroSlope variant comes with Docker support out of the box, providing you w
 ZeroSlope will fully support all three major cloud providers (Aws, Azure, Google Cloud) using Terraform. Given each variant of ZeroSlope is dockerized, we can keep our infrastructure code generic and give you a great place to start.
 
 
+### Platform Support
+
+So far, ZeroSlope comes in a few flavors:
+
+* Net 6 Minimal Api
+* DotNet Core 2.2 WebApi
+* GoLang using Gin
+* Java 8 Spring Boot
+* Node ExpressJS with Typescript
