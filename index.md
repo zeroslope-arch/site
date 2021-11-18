@@ -17,14 +17,6 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 * **Language Agnostic**: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
 
 
-### Lean Microservice Architecture
-
-todo
-
-### Developer Adoption
-
-todo
-
 ### Switching Technologies
 
 If an engineer was working on the Java variant of ZeroSlope, and needed to work on a .net project with little to no experience in .net, hopefully the platform would provide a jumping-off point to get the engineer comfortable quickly.
@@ -34,19 +26,12 @@ If an engineer was working on the Java variant of ZeroSlope, and needed to work 
 
 One concept I really wanted to focus on with this platform was the idea that the architecture would encourage engineers to learn at their own page. I want engineers to be able to dive as deep into the pattern as they feel comfortable.
 
+### Dockerized from the start
 
-### Holistic Platform
+Each ZeroSlope variant comes with Docker support out of the box, providing you with a Dockerfile allowing you to run your solution in the widest array of solutions possible.
 
-todo
+### Cloud Provider Support
 
-### Language Agnostic
+ZeroSlope will fully support all three major cloud providers (Aws, Azure, Google Cloud) using Terraform. Given each variant of ZeroSlope is dockerized, we can keep our infrastructure code generic and give you a great place to start.
 
-todo
 
-### Cloud Agnostic
-
-todo
-
-### Configurable Solution Generation
-
-todo
