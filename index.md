@@ -6,7 +6,7 @@ Looking for code? [Github Repositories](https://github.com/zeroslope-arch)
 
 About 10 years ago, I started working on a .net scaffold specifically around my [Dependency Injection Composition Root](https://medium.com/@cfryerdev/dependency-injection-composition-root-418a1bb19130) pattern. I wanted to create super lean and performant scaffold I could drop into a new project and get running quickly. It evolved into a way to introduce other engineers to Composition Root. What I discovered during this phase, was how approachable the pattern was to engineers of most any skill level. I decided to pivot my scaffold to focus on two main principals; **Lean Architecture** & **Developer Adoption**.
 
-What does the name mean? In algebra, a zero slope is a straight horizonal line. I strongly believe the a good microservice architecture should mainly scale horizontally with load.
+What does the name mean? In algebra, a zero slope is a straight horizonal line. I strongly believe that a good microservice architecture should mainly scale horizontally with load.
 
 To avoid analysis paralysis and ensure what I was developing would stay true to the idea I had in my head, I came up with a series of tenets that I can always look back on and make sure I am making the right architectural decisions.
 
