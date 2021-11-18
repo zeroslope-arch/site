@@ -8,9 +8,9 @@ About 10 years ago, I started working on a .net scaffold specifically around my
 
 What does the name mean? In algebra, a zero slope is a straight horizonal line. I strongly believe the a good microservice architecture should mainly scale horizontally with load.
 
-To avoid analysis paralysis and ensure what I was developing would stay true to the idea I had in my head, I came up with a series of Tenants that I can always look back on and make sure I am making the right architectural decisions.
+To avoid analysis paralysis and ensure what I was developing would stay true to the idea I had in my head, I came up with a series of tenets that I can always look back on and make sure I am making the right architectural decisions.
 
-### The Tenants of ZeroSlope
+### The Tenets of ZeroSlope
 
 * **Developer Focused**: Developer quality of life is the largest focus of the pattern. When at a crossroads on a design pattern, whichever leans closer to developer maintainability should win.
 * **Developer Adoption**: The pattern and processes should lend to developers of all skill levels to work within it. The more comfortable or skillful the developer, the deeper into the stack they can work.
