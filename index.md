@@ -63,6 +63,8 @@ So far, ZeroSlope comes in a few flavors:
 
 ZeroSlope works perfectly with the composition layer approach to cloud architecture.  (As shown and described below)
 
+![CloudComposition](assets/cloud_composition_arch.png)
+
 ### Composition Layer
 
 ZeroSlope provides lean microservices and/or lambda architectures for use in the composition layer which is primarily responsible for holding business logic and orchestrating call(s) to core services.
@@ -71,9 +73,6 @@ ZeroSlope provides lean microservices and/or lambda architectures for use in the
 
 ZeroSlope can also be used in the core services layer where scalability and resiliency is an absolutye must. In the core services layer, we build mostly static, highly performance microservices which provide only functionality and extensibility, but no business rule based logic.
 
-### Diagram
-
- ![CloudComposition](assets/cloud_composition_arch.png)
 
 ### More infromation
 
