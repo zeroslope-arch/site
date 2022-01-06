@@ -19,6 +19,15 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 * **Language Agnostic**: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
 
 
+### Getting started
+
+ZeroSlope is available via yeoman, simply by answering a few questions. To get started open a terminal and type:
+
+```bash
+npm install -g generator-zeroslope
+yo zeroslope
+```
+
 ## Solution Architecture
 
  ![Architecture](assets/solution_architecture.png)
