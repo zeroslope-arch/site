@@ -36,10 +36,6 @@ You can now simply run the following command and simply answere a few questions.
 yo zeroslope
 ```
 
-## Solution Architecture
-
- ![Architecture](assets/solution_architecture.png)
-
 ## Technical Concepts
 
 ### Horizontally scaling
@@ -75,6 +71,9 @@ So far, ZeroSlope comes in a few flavors:
 * Java 8 Spring Boot
 * Node ExpressJS with Typescript
 
+## Solution Architecture
+
+ ![Architecture](assets/solution_architecture.png)
 
 ## Cloud Composition Architecture
 
