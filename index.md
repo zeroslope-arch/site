@@ -24,6 +24,7 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 ZeroSlope is available via yeoman, simply by answering a few questions. To get started open a terminal and type:
 
 ```bash
+npm install -g yo
 npm install -g generator-zeroslope
 yo zeroslope
 ```
