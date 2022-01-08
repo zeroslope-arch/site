@@ -28,8 +28,6 @@ npm install -g yo
 npm install -g generator-zeroslope
 ```
 
-### Generate zeroslope
-
 You can now simply run the following command and just answere a few quick questions.
 
 ```bash
