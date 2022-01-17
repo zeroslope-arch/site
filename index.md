@@ -2,7 +2,7 @@
  
 Looking for code? [Github Repositories](https://github.com/zeroslope-arch)
 
-## What is the ZeroSlope Platform
+## ⛷️ What is the ZeroSlope Platform
 
 About 10 years ago, I started working on a .net scaffold specifically around my [Dependency Injection Composition Root](https://medium.com/@cfryerdev/dependency-injection-composition-root-418a1bb19130) pattern. I wanted to create super lean and performant scaffold I could drop into a new project and get running quickly. It evolved into a way to introduce other engineers to Composition Root. What I discovered during this phase, was how approachable the pattern was to engineers of most any skill level. I decided to pivot my scaffold to focus on two main principals; **Lean Architecture** & **Developer Adoption**.
 
@@ -19,7 +19,7 @@ To avoid analysis paralysis and ensure what I was developing would stay true to 
 * **Language Agnostic**: Aside from language specific requirements, a developer should be able to move from Java ZeroSlope to Node ZeroSlope to .net Core ZeroSlope. They should find the general structure and naming conventions to be familiar which will boost developer confidence and velocity.
 
 
-## Code generation
+## ⛷️ Code generation
 
 ZeroSlope is available via yeoman, to install and set up yeoman and the zeroslope template:
 
@@ -34,7 +34,7 @@ You can now simply run the following command and just answere a few quick questi
 yo zeroslope
 ```
 
-## Technical Concepts
+## ⛷️ Technical Concepts
 
 ### Horizontally scaling
 
@@ -69,11 +69,11 @@ So far, ZeroSlope comes in a few flavors:
 * Java 8 Spring Boot
 * Node ExpressJS with Typescript
 
-## Solution Architecture
+## ⛷️ Solution Architecture
 
  ![Architecture](assets/solution_architecture.png)
 
-## Cloud Composition Architecture
+## ⛷️ Cloud Composition Architecture
 
 ZeroSlope works perfectly with the composition layer approach to cloud architecture.  (As shown and described below)
 
